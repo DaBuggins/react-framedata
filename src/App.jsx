@@ -5,8 +5,8 @@ import Character from "./Character";
 
 
 const characters = [
-  {id: 1, name: "Ryu", },
-  {id: 2, name: "Chun_Li"}
+  {id: 1, name: "Ryu", image: "https://wiki.supercombo.gg/images/thumb/1/19/SF6_Ryu_Portrait.png/287px-SF6_Ryu_Portrait.png"},
+  {id: 2, name: "Chun_Li", image: "https://wiki.supercombo.gg/images/thumb/c/ca/SF6_Chun-Li_Portrait.png/250px-SF6_Chun-Li_Portrait.png"}
 ]
 
 function App() {
