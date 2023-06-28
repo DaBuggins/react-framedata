@@ -13,6 +13,7 @@ function App() {
       <h1>hello</h1>      
       <Chun />
       <Chun />
+      <Chun />
     </>
   )
 }
