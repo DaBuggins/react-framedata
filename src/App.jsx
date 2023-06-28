@@ -1,22 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Chun from './Chun'
+import { useState } from "react";
+import "./App.css";
+import CharacterSelect from "./CharacterSelect";
+import Character from "./Character";
 
 
-import './App.css'
+const characters = [
+  {id: 1, name: "Ryu", },
+  {id: 2, name: "Chun_Li"}
+]
 
 function App() {
-
   return (
     <>
-      <h1>hello</h1>      
-      <Chun />
-      <Chun />
-      <Chun />
-      <Chun />
+      <h1>hello</h1>
+      {/* <CharacterSelect /> */}
+      <Character characters={characters}/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
