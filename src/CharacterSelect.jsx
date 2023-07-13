@@ -5,5 +5,6 @@ export default function CharacterSelect() {
    return <>
     <Chun />
     <Ryu />
+    <Ken />
     </>
 }
