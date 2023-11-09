@@ -4,16 +4,17 @@
   flex-wrap: wrap;
   border: solid 7px black;
   border-radius: 10px;
-  padding: 6rem;
+  padding: 4rem;
+  
 }
 
 .charli {
-  max-height: 400px; 
-  width: 400px;
+  height: 400px; 
+  width: 280px;
   border: solid 3px grey;
   border-radius: 10px;
   margin: 10px;
-  padding: 1em;  
+  padding: 2em;  
   list-style-type: none;
   
 }
