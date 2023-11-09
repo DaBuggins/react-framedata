@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+.hello {
+  text-shadow: rgb(122, 122, 122) 4px 3px 0px;
+  background-color: lightgreen;
+}

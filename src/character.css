@@ -1,0 +1,24 @@
+.charlist {    
+  display: flex;
+  background-color: wheat;
+  flex-wrap: wrap;
+  border: solid 7px black;
+  border-radius: 10px;
+  padding: 6rem;
+}
+
+.charli {
+  max-height: 400px; 
+  width: 400px;
+  border: solid 3px grey;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 1em;  
+  list-style-type: none;
+  
+}
+
+body {
+    background-color: lightsalmon;
+    
+}

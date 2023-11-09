@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./App.css";
-import CharacterSelect from "./CharacterSelect";
 import Character from "./Character";
 
 
@@ -8,8 +7,7 @@ import Character from "./Character";
 function App() {
   return (
     <>
-      <h1>hello</h1>
-      {/* <CharacterSelect /> */}
+      <h1 className="hello">hello</h1>
       <Character />
     </>
   );
