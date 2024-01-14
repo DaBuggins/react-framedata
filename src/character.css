@@ -30,6 +30,7 @@
   outline-color: black;
   border-radius: 2px;
   background-color: lightskyblue;
+  filter: drop-shadow(0 0 2em blue);
 
 }
 
