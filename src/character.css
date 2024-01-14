@@ -1,24 +1,36 @@
-.charlist {    
- display: flex;
- flex-wrap: wrap;
+.charlist {   
+  display: flex;
+  flex-wrap: wrap;  
   background-color: wheat;
-  border: solid 7px mediumpurple;
+  border: solid 3px black;
   border-radius: 10px;
-  padding: 4rem;
-  justify-content: center;
-  
+  padding: 2em;
+  justify-content: flex-start;
+  gap: 2em; 
 }
 
 .charli {  
+  flex: 1 1 1em;
   height: 400px; 
-  width: 280px;
-  border: solid 3px grey;
+  width: 380px;
+  border: solid 3px darkgreen;
   border-radius: 10px;
   margin: 10px;
   padding: 1em;
   list-style-type: none;
   justify-content: center;
+  padding-bottom: 3em;  
+  background-color: lightblue;
   
+}
+
+.charimg:hover {
+  transform: scale(1.7);
+  outline-style: double;
+  outline-color: black;
+  border-radius: 2px;
+  background-color: lightskyblue;
+
 }
 
 body {
